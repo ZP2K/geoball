@@ -562,11 +562,11 @@ function toStr(a) {
 	var s = "";
 	
 	if (type !== "Object" && type !== "Array") {
-    	if (type === "String") {
-        	s += '"' + a.toString() + '"';
-        } else {
+    		if (type === "String") {
+        		s += '"' + a.toString() + '"';
+        	} else {
 			s += a.toString();
-        }
+        	}
 	}
 
 	var len = false;
@@ -583,15 +583,15 @@ function toStr(a) {
 		}
 		s += "}";
 	} else if (type === "Array") {
-    	s += "[";
+    		s += "[";
 		for (var i = 0; i < a.length; i++) {
 			s += toStr(a[i]) + ",";
 			len = true;
 		}
-        if (len === true) {
+        	if (len === true) {
 			s = s.slice(0, -1);
 		}
-        s += "]";
+        	s += "]";
 	}
     
 	return s;
