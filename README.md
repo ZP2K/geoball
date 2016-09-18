@@ -4,7 +4,7 @@ Basic dodgeball game using NodeJS for Bluemix.
 # Info
 
 Server contains server-side.
-Pubic contains cient-side.
+Public contains cient-side.
 
 # Releases
 
