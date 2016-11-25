@@ -1,5 +1,5 @@
 # Geoball
-Basic dodgeball game using NodeJS for Bluemix.
+Dodgeball game using NodeJS for Bluemix.
 
 # Info
 
