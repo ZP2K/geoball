@@ -85,11 +85,6 @@
 					var data = new Int16Array([0, e.clientX - (window.innerWidth / 2), e.clientY - (window.innerHeight / 2)]);
 					ws.send(data.buffer);
 				}
-				var mx = e.clientX - canvas.getBoundingClientRect().left;
-				var my = e.clientY - canvas.getBoundingClientRect().top;
-				 if(mx < canvas.width/2 && my > canvas.height/2){
-					displayUpgrades();
-				 }
 			};
 
 			window.onkeydown = function(e) {
