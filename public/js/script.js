@@ -6,7 +6,7 @@
 			return;
 		}
 	} catch(e) {
-		console.log("Please do not embed this game.");a
+		console.log("Please do not embed this game.");
 		return;
 	}
 
